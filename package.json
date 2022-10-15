@@ -1,0 +1,27 @@
+{
+  "name": "node-stack",
+  "version": "1.0.0",
+  "description": "nodejs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start",
+    "test": "jest test/unit/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/su-rm-rf/node-stack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/su-rm-rf/node-stack/issues"
+  },
+  "homepage": "https://github.com/su-rm-rf/node-stack#readme",
+  "dependencies": {
+    "nuxt": "^2.15.8"
+  }
+}

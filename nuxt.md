@@ -63,6 +63,30 @@
 根据pages目录结构自动生成Vue-Router模块的路由配置
 路由跳转 nuxt-link to
 动态路由 _开头的vue文件
+  路由参数校验
+嵌套路由
+  与文件同名的目录，存放子视图组件
+动态嵌套路由
+  未知嵌套深度的动态嵌套路由 _.vue动态匹配
+  命名视图
+    layout page中 name
+  SPA fallback
+    mode:spa 静态托管服务  
+过渡动效 transition组件 page
+  全局过渡动效设置
+  页面过渡动效设置
 
+# 中间件
+自定义函数，运行在一个或一组页面渲染之前
+context => result
+执行流程顺序：nuxt.config.js -> 匹配layouts -> 匹配pages
+可以异步执行
 
+# 视图
+应用模板
+  定制默认的html模板
+布局
+  扩展默认的布局，或自定义的布局
+页面
+HTML头部
 

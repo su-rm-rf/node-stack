@@ -1,3 +1,6 @@
+<script>
+  
+</script>
 <template>
   <div>
     <h3>test!</h3>
